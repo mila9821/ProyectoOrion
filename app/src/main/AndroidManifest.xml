@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyecto">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>>
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher23"
+        android:label="ORION"
+        android:roundIcon="@mipmap/ic_launcher23_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyecto">
+        <activity
+            android:name=".view2"
+            android:exported="false" />
+        <activity
+            android:name=".view1"
+            android:exported="false" />
+        <activity
+            android:name=".CuidadoPersonal"
+            android:exported="false" />
+        <activity
+            android:name=".Limpieza"
+            android:exported="false" />
+        <activity
+            android:name=".Licor"
+            android:exported="false" />
+        <activity
+            android:name=".Gaseosa"
+            android:exported="false" />
+        <activity
+            android:name=".Abarrote"
+            android:exported="false" />
+        <activity
+            android:name=".Fruta"
+            android:exported="false" />
+        <activity
+            android:name=".Carnes"
+            android:exported="false" />
+        <activity
+            android:name=".Embutidos"
+            android:exported="false" />
+        <activity
+            android:name=".ListaComida"
+            android:exported="false" />
+        <activity
+            android:name=".CrearCuenta"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
